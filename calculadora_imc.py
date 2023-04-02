@@ -1,12 +1,12 @@
 print("Calculada de IMC")
-print("Digite o peso:")
+print("Digite seu peso:")
 peso = float(input())
-print("Digite o altura:")
+print("Digite sua altura:")
 altura = float(input())
 
 imc = peso / (altura * altura)
 
-print("IMC:", round(imc, 2))
+print("Seu IMC:", round(imc, 2))
 
 if imc <= 18.5 :
     print("🔸 Abaixo do peso")
@@ -18,4 +18,3 @@ elif imc >= 30 and imc <= 39.9:
     print("🔸 Obesidade grau II")
 else: 
     print("🔸 Obesidade grau III")
-
